@@ -1,0 +1,323 @@
+{
+ "asumsi": {
+  "jiwa_per_kk": 4,
+  "jiwa_per_kk_catatan": "ASUMSI perencanaan. Belum ada data jiwa per KK dari kantor desa.",
+  "luas_per_jiwa_m2": 3.5,
+  "luas_per_jiwa_sumber": "Sphere Handbook: luas terlindung minimum 3,5 m2 per orang",
+  "laju_jalan_ms": 0.75,
+  "laju_jalan_catatan": "ASUMSI: populasi campuran termasuk anak dan lansia.",
+  "faktor_liku": 1.3,
+  "faktor_liku_catatan": "ASUMSI: panjang jalur nyata = 1,3 x jarak lurus. Jalur belum disurvei."
+ },
+ "status_global": "USULAN - belum ditetapkan BPBD Kabupaten Serang atau Pemerintah Desa Pulo Panjang",
+ "dasar_data": [
+  "Garis pantai digitasi pengguna (data/garis_pantai_digitasi.geojson)",
+  "Geometri 7 kampung (data/geoms.json)",
+  "Elevasi DEMNAS/BIG dan jarak garis pantai: tabel data_parameter",
+  "Jumlah KK: pernyataan Kepala Desa Pulo Panjang (SRSentra, 22 Mei 2026), dibagi rata 7 kampung"
+ ],
+ "belum_tersedia": [
+  "Elevasi DEMNAS pada koordinat tiap titik evakuasi (baru tersedia di tingkat kampung)",
+  "Jalur jalan nyata, lebar jalan, dan hambatan di lapangan",
+  "Bangunan bertingkat, kapasitas tampung, dan ketersediaan air bersih di titik aman",
+  "Kepemilikan dan tutupan lahan di titik aman",
+  "Penetapan resmi titik evakuasi oleh BPBD / Pemerintah Desa"
+ ],
+ "pulau": {
+  "nama": "Pulo Panjang",
+  "administrasi": "Desa Pulo Panjang, Kec. Puloampel, Kab. Serang, Banten",
+  "luas_km2": 6.7559,
+  "luas_ha": 675.59,
+  "panjang_garis_pantai_km": 11.715,
+  "bbox": {
+   "lat_min": -5.945095,
+   "lat_maks": -5.919142,
+   "lon_min": 106.138756,
+   "lon_maks": 106.169634
+  },
+  "titik_terjauh_dari_pantai": {
+   "lat": -5.931019,
+   "lon": 106.151642,
+   "jarak_ke_pantai_m": 1263.7
+  },
+  "sumber_geometri": "Digitasi perkiraan dari citra Esri oleh pengguna (data/garis_pantai_digitasi.geojson)"
+ },
+ "titik_srgi_big": {
+  "lat": -5.93014699,
+  "lon": 106.15350779,
+  "di_dalam_pulau": true,
+  "jarak_ke_garis_pantai_m": 1143.9
+ },
+ "titik_evakuasi": [
+  {
+   "id_titik": 1,
+   "id_wilayah": 1,
+   "nama_titik": "Titik Aman Penengahan",
+   "jenis": "Dataran dalam (usulan geometris)",
+   "lintang": -5.931019,
+   "bujur": 106.151642,
+   "elevasi_kampung_m": 2.4,
+   "elevasi_titik_m": null,
+   "kemiringan_kampung_persen": 3.5,
+   "jarak_pantai_m": 1263.7,
+   "jarak_pantai_terjauh_kampung_m": 1258.9,
+   "kapasitas_orang": null,
+   "status_validasi": "usulan",
+   "keterangan": "Titik interior dengan jarak maksimum ke garis pantai di Kampung Penengahan (1264 m). Dihitung dari garis pantai digitasi. Elevasi per titik dan akses jalan BELUM diverifikasi."
+  },
+  {
+   "id_titik": 2,
+   "id_wilayah": 2,
+   "nama_titik": "Titik Aman Peres",
+   "jenis": "Dataran dalam (usulan geometris)",
+   "lintang": -5.938727,
+   "bujur": 106.153742,
+   "elevasi_kampung_m": 0.9,
+   "elevasi_titik_m": null,
+   "kemiringan_kampung_persen": 1.5,
+   "jarak_pantai_m": 559.9,
+   "jarak_pantai_terjauh_kampung_m": 556.1,
+   "kapasitas_orang": null,
+   "status_validasi": "usulan",
+   "keterangan": "Titik interior dengan jarak maksimum ke garis pantai di Kampung Peres (560 m). Dihitung dari garis pantai digitasi. Elevasi per titik dan akses jalan BELUM diverifikasi."
+  },
+  {
+   "id_titik": 3,
+   "id_wilayah": 3,
+   "nama_titik": "Titik Aman Baru",
+   "jenis": "Dataran dalam (usulan geometris)",
+   "lintang": -5.930684,
+   "bujur": 106.15131,
+   "elevasi_kampung_m": 1.4,
+   "elevasi_titik_m": null,
+   "kemiringan_kampung_persen": 3,
+   "jarak_pantai_m": 1231.2,
+   "jarak_pantai_terjauh_kampung_m": 1220.6,
+   "kapasitas_orang": null,
+   "status_validasi": "usulan",
+   "keterangan": "Titik interior dengan jarak maksimum ke garis pantai di Kampung Baru (1231 m). Dihitung dari garis pantai digitasi. Elevasi per titik dan akses jalan BELUM diverifikasi."
+  },
+  {
+   "id_titik": 4,
+   "id_wilayah": 4,
+   "nama_titik": "Titik Aman Sukarela",
+   "jenis": "Dataran dalam (usulan geometris)",
+   "lintang": -5.929685,
+   "bujur": 106.155898,
+   "elevasi_kampung_m": 0.6,
+   "elevasi_titik_m": null,
+   "kemiringan_kampung_persen": 1,
+   "jarak_pantai_m": 1030.8,
+   "jarak_pantai_terjauh_kampung_m": 1022.4,
+   "kapasitas_orang": null,
+   "status_validasi": "usulan",
+   "keterangan": "Titik interior dengan jarak maksimum ke garis pantai di Kampung Sukarela (1031 m). Dihitung dari garis pantai digitasi. Elevasi per titik dan akses jalan BELUM diverifikasi."
+  },
+  {
+   "id_titik": 5,
+   "id_wilayah": 5,
+   "nama_titik": "Titik Aman Sukadiri",
+   "jenis": "Dataran dalam (usulan geometris)",
+   "lintang": -5.937773,
+   "bujur": 106.155035,
+   "elevasi_kampung_m": 0.7,
+   "elevasi_titik_m": null,
+   "kemiringan_kampung_persen": 1,
+   "jarak_pantai_m": 570.5,
+   "jarak_pantai_terjauh_kampung_m": 563.7,
+   "kapasitas_orang": null,
+   "status_validasi": "usulan",
+   "keterangan": "Titik interior dengan jarak maksimum ke garis pantai di Kampung Sukadiri (570 m). Dihitung dari garis pantai digitasi. Elevasi per titik dan akses jalan BELUM diverifikasi."
+  },
+  {
+   "id_titik": 6,
+   "id_wilayah": 6,
+   "nama_titik": "Titik Aman Kebalen",
+   "jenis": "Dataran dalam (usulan geometris)",
+   "lintang": -5.931133,
+   "bujur": 106.157865,
+   "elevasi_kampung_m": 1.8,
+   "elevasi_titik_m": null,
+   "kemiringan_kampung_persen": 2.5,
+   "jarak_pantai_m": 846.6,
+   "jarak_pantai_terjauh_kampung_m": 842.4,
+   "kapasitas_orang": null,
+   "status_validasi": "usulan",
+   "keterangan": "Titik interior dengan jarak maksimum ke garis pantai di Kampung Kebalen (847 m). Dihitung dari garis pantai digitasi. Elevasi per titik dan akses jalan BELUM diverifikasi."
+  },
+  {
+   "id_titik": 7,
+   "id_wilayah": 7,
+   "nama_titik": "Titik Aman Pasir Putih",
+   "jenis": "Dataran dalam (usulan geometris)",
+   "lintang": -5.932356,
+   "bujur": 106.151318,
+   "elevasi_kampung_m": 3.2,
+   "elevasi_titik_m": null,
+   "kemiringan_kampung_persen": 5,
+   "jarak_pantai_m": 1138.0,
+   "jarak_pantai_terjauh_kampung_m": 1135.4,
+   "kapasitas_orang": null,
+   "status_validasi": "usulan",
+   "keterangan": "Titik interior dengan jarak maksimum ke garis pantai di Kampung Pasir Putih (1138 m). Dihitung dari garis pantai digitasi. Elevasi per titik dan akses jalan BELUM diverifikasi."
+  }
+ ],
+ "jalur_evakuasi": [
+  {
+   "id_jalur": 1,
+   "id_wilayah": 1,
+   "id_titik": 1,
+   "panjang_lurus_m": 172.7,
+   "panjang_jalur_estimasi_m": 224.5,
+   "waktu_tempuh_menit": 5.0,
+   "keterangan": "Jarak lurus titik permukiman ke titik aman 173 m; estimasi panjang jalur 225 m (faktor liku 1.3); waktu tempuh 5 menit pada laju 0.75 m/s. Jalur nyata belum disurvei."
+  },
+  {
+   "id_jalur": 2,
+   "id_wilayah": 2,
+   "id_titik": 2,
+   "panjang_lurus_m": 587.1,
+   "panjang_jalur_estimasi_m": 763.2,
+   "waktu_tempuh_menit": 17.0,
+   "keterangan": "Jarak lurus titik permukiman ke titik aman 587 m; estimasi panjang jalur 763 m (faktor liku 1.3); waktu tempuh 17 menit pada laju 0.75 m/s. Jalur nyata belum disurvei."
+  },
+  {
+   "id_jalur": 3,
+   "id_wilayah": 3,
+   "id_titik": 3,
+   "panjang_lurus_m": 222.3,
+   "panjang_jalur_estimasi_m": 289.0,
+   "waktu_tempuh_menit": 6.4,
+   "keterangan": "Jarak lurus titik permukiman ke titik aman 222 m; estimasi panjang jalur 289 m (faktor liku 1.3); waktu tempuh 6 menit pada laju 0.75 m/s. Jalur nyata belum disurvei."
+  },
+  {
+   "id_jalur": 4,
+   "id_wilayah": 4,
+   "id_titik": 4,
+   "panjang_lurus_m": 383.3,
+   "panjang_jalur_estimasi_m": 498.3,
+   "waktu_tempuh_menit": 11.1,
+   "keterangan": "Jarak lurus titik permukiman ke titik aman 383 m; estimasi panjang jalur 498 m (faktor liku 1.3); waktu tempuh 11 menit pada laju 0.75 m/s. Jalur nyata belum disurvei."
+  },
+  {
+   "id_jalur": 5,
+   "id_wilayah": 5,
+   "id_titik": 5,
+   "panjang_lurus_m": 533.3,
+   "panjang_jalur_estimasi_m": 693.3,
+   "waktu_tempuh_menit": 15.4,
+   "keterangan": "Jarak lurus titik permukiman ke titik aman 533 m; estimasi panjang jalur 693 m (faktor liku 1.3); waktu tempuh 15 menit pada laju 0.75 m/s. Jalur nyata belum disurvei."
+  },
+  {
+   "id_jalur": 6,
+   "id_wilayah": 6,
+   "id_titik": 6,
+   "panjang_lurus_m": 535.2,
+   "panjang_jalur_estimasi_m": 695.8,
+   "waktu_tempuh_menit": 15.5,
+   "keterangan": "Jarak lurus titik permukiman ke titik aman 535 m; estimasi panjang jalur 696 m (faktor liku 1.3); waktu tempuh 15 menit pada laju 0.75 m/s. Jalur nyata belum disurvei."
+  },
+  {
+   "id_jalur": 7,
+   "id_wilayah": 7,
+   "id_titik": 7,
+   "panjang_lurus_m": 207.2,
+   "panjang_jalur_estimasi_m": 269.4,
+   "waktu_tempuh_menit": 6.0,
+   "keterangan": "Jarak lurus titik permukiman ke titik aman 207 m; estimasi panjang jalur 269 m (faktor liku 1.3); waktu tempuh 6 menit pada laju 0.75 m/s. Jalur nyata belum disurvei."
+  }
+ ],
+ "kebutuhan_penampungan": [
+  {
+   "id_wilayah": 1,
+   "nama": "Kampung Penengahan",
+   "kk_estimasi": 158,
+   "jiwa_estimasi": 632,
+   "luas_terlindung_minimum_m2": 2212.0,
+   "elevasi_demnas_m": 2.4,
+   "jarak_pantai_parameter_m": 330,
+   "jarak_pantai_titik_terhitung_m": 1099.6,
+   "selisih_jarak_m": 769.6,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.0,
+   "luas_darat_ha": 27.16
+  },
+  {
+   "id_wilayah": 2,
+   "nama": "Kampung Peres",
+   "kk_estimasi": 157,
+   "jiwa_estimasi": 628,
+   "luas_terlindung_minimum_m2": 2198.0,
+   "elevasi_demnas_m": 0.9,
+   "jarak_pantai_parameter_m": 90,
+   "jarak_pantai_titik_terhitung_m": 129.1,
+   "selisih_jarak_m": 39.1,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.324,
+   "luas_darat_ha": 55.12
+  },
+  {
+   "id_wilayah": 3,
+   "nama": "Kampung Baru",
+   "kk_estimasi": 157,
+   "jiwa_estimasi": 628,
+   "luas_terlindung_minimum_m2": 2198.0,
+   "elevasi_demnas_m": 1.4,
+   "jarak_pantai_parameter_m": 150,
+   "jarak_pantai_titik_terhitung_m": 1096.5,
+   "selisih_jarak_m": 946.5,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.134,
+   "luas_darat_ha": 228.76
+  },
+  {
+   "id_wilayah": 4,
+   "nama": "Kampung Sukarela",
+   "kk_estimasi": 157,
+   "jiwa_estimasi": 628,
+   "luas_terlindung_minimum_m2": 2198.0,
+   "elevasi_demnas_m": 0.6,
+   "jarak_pantai_parameter_m": 40,
+   "jarak_pantai_titik_terhitung_m": 650.4,
+   "selisih_jarak_m": 610.4,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.157,
+   "luas_darat_ha": 130.56
+  },
+  {
+   "id_wilayah": 5,
+   "nama": "Kampung Sukadiri",
+   "kk_estimasi": 157,
+   "jiwa_estimasi": 628,
+   "luas_terlindung_minimum_m2": 2198.0,
+   "elevasi_demnas_m": 0.7,
+   "jarak_pantai_parameter_m": 60,
+   "jarak_pantai_titik_terhitung_m": 40.6,
+   "selisih_jarak_m": -19.4,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.26,
+   "luas_darat_ha": 32.72
+  },
+  {
+   "id_wilayah": 6,
+   "nama": "Kampung Kebalen",
+   "kk_estimasi": 157,
+   "jiwa_estimasi": 628,
+   "luas_terlindung_minimum_m2": 2198.0,
+   "elevasi_demnas_m": 1.8,
+   "jarak_pantai_parameter_m": 210,
+   "jarak_pantai_titik_terhitung_m": 323.8,
+   "selisih_jarak_m": 113.8,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.217,
+   "luas_darat_ha": 97.04
+  },
+  {
+   "id_wilayah": 7,
+   "nama": "Kampung Pasir Putih",
+   "kk_estimasi": 157,
+   "jiwa_estimasi": 628,
+   "luas_terlindung_minimum_m2": 2198.0,
+   "elevasi_demnas_m": 3.2,
+   "jarak_pantai_parameter_m": 420,
+   "jarak_pantai_titik_terhitung_m": 993.2,
+   "selisih_jarak_m": 573.2,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.074,
+   "luas_darat_ha": 104.88
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "metode": {
+  "proyeksi": "Equirectangular lokal, pusat lat -5.933735 lon 106.155135; 1 deg lintang = 110586.14 m, 1 deg bujur = 110726.98 m (WGS84)",
+  "jarak": "Jarak titik-ke-segmen eksak terhadap seluruh 154 segmen garis pantai digitasi",
+  "titik_aman": "Titik interior dengan jarak maksimum ke garis pantai (pole of inaccessibility), pencarian grid bertingkat 25 m -> ~0,1 m",
+  "luas": "Shoelace pada proyeksi meter; luas darat kampung dari grid 20 m",
+  "elevasi": "TIDAK dihitung. Tidak ada DEM pada data masukan."
+ },
+ "pulau": {
+  "nama": "Pulo Panjang",
+  "administrasi": "Desa Pulo Panjang, Kec. Puloampel, Kab. Serang, Banten",
+  "luas_km2": 6.7559,
+  "luas_ha": 675.59,
+  "panjang_garis_pantai_km": 11.715,
+  "bbox": {
+   "lat_min": -5.945095,
+   "lat_maks": -5.919142,
+   "lon_min": 106.138756,
+   "lon_maks": 106.169634
+  },
+  "titik_terjauh_dari_pantai": {
+   "lat": -5.931019,
+   "lon": 106.151642,
+   "jarak_ke_pantai_m": 1263.7
+  },
+  "sumber_geometri": "Digitasi perkiraan dari citra Esri oleh pengguna (data/garis_pantai_digitasi.geojson)"
+ },
+ "titik_srgi_big": {
+  "lat": -5.93014699,
+  "lon": 106.15350779,
+  "di_dalam_pulau": true,
+  "jarak_ke_garis_pantai_m": 1143.9
+ },
+ "kampung": [
+  {
+   "id": 1,
+   "nama": "Kampung Penengahan",
+   "deskripsi": "Area historis bagian tengah pulau",
+   "titik_permukiman": {
+    "lat": -5.93167,
+    "lon": 106.15306
+   },
+   "jarak_titik_ke_pantai_m": 1099.6,
+   "kandidat_titik_aman": {
+    "lat": -5.931019,
+    "lon": 106.151642
+   },
+   "jarak_kandidat_ke_pantai_m": 1263.7,
+   "jarak_permukiman_ke_kandidat_m": 172.7,
+   "luas_darat_ha": 27.16,
+   "jarak_pantai_median_m": 1038.4,
+   "jarak_pantai_maks_m": 1258.9,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.0,
+   "elevasi_m": null,
+   "catatan_elevasi": "Belum terisi: tidak ada data DEM pada masukan. Perlu DEMNAS/BIG atau survei GNSS."
+  },
+  {
+   "id": 2,
+   "nama": "Kampung Peres",
+   "deskripsi": "Pemukiman utama nelayan terpadat di selatan",
+   "titik_permukiman": {
+    "lat": -5.94376,
+    "lon": 106.15543
+   },
+   "jarak_titik_ke_pantai_m": 129.1,
+   "kandidat_titik_aman": {
+    "lat": -5.938727,
+    "lon": 106.153742
+   },
+   "jarak_kandidat_ke_pantai_m": 559.9,
+   "jarak_permukiman_ke_kandidat_m": 587.1,
+   "luas_darat_ha": 55.12,
+   "jarak_pantai_median_m": 164.9,
+   "jarak_pantai_maks_m": 556.1,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.324,
+   "elevasi_m": null,
+   "catatan_elevasi": "Belum terisi: tidak ada data DEM pada masukan. Perlu DEMNAS/BIG atau survei GNSS."
+  },
+  {
+   "id": 3,
+   "nama": "Kampung Baru",
+   "deskripsi": "Zona perluasan perumahan barat laut",
+   "titik_permukiman": {
+    "lat": -5.92916,
+    "lon": 106.15
+   },
+   "jarak_titik_ke_pantai_m": 1096.5,
+   "kandidat_titik_aman": {
+    "lat": -5.930684,
+    "lon": 106.15131
+   },
+   "jarak_kandidat_ke_pantai_m": 1231.2,
+   "jarak_permukiman_ke_kandidat_m": 222.3,
+   "luas_darat_ha": 228.76,
+   "jarak_pantai_median_m": 411.5,
+   "jarak_pantai_maks_m": 1220.6,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.134,
+   "elevasi_m": null,
+   "catatan_elevasi": "Belum terisi: tidak ada data DEM pada masukan. Perlu DEMNAS/BIG atau survei GNSS."
+  },
+  {
+   "id": 4,
+   "nama": "Kampung Sukarela",
+   "deskripsi": "Area pemukiman utara dekat batas vegetasi mangrove",
+   "titik_permukiman": {
+    "lat": -5.92638,
+    "lon": 106.15694
+   },
+   "jarak_titik_ke_pantai_m": 650.4,
+   "kandidat_titik_aman": {
+    "lat": -5.929685,
+    "lon": 106.155898
+   },
+   "jarak_kandidat_ke_pantai_m": 1030.8,
+   "jarak_permukiman_ke_kandidat_m": 383.3,
+   "luas_darat_ha": 130.56,
+   "jarak_pantai_median_m": 354.4,
+   "jarak_pantai_maks_m": 1022.4,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.157,
+   "elevasi_m": null,
+   "catatan_elevasi": "Belum terisi: tidak ada data DEM pada masukan. Perlu DEMNAS/BIG atau survei GNSS."
+  },
+  {
+   "id": 5,
+   "nama": "Kampung Sukadiri",
+   "deskripsi": "Pemukiman pesisir tenggara pulau",
+   "titik_permukiman": {
+    "lat": -5.93889,
+    "lon": 106.15972
+   },
+   "jarak_titik_ke_pantai_m": 40.6,
+   "kandidat_titik_aman": {
+    "lat": -5.937773,
+    "lon": 106.155035
+   },
+   "jarak_kandidat_ke_pantai_m": 570.5,
+   "jarak_permukiman_ke_kandidat_m": 533.3,
+   "luas_darat_ha": 32.72,
+   "jarak_pantai_median_m": 215.2,
+   "jarak_pantai_maks_m": 563.7,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.26,
+   "elevasi_m": null,
+   "catatan_elevasi": "Belum terisi: tidak ada data DEM pada masukan. Perlu DEMNAS/BIG atau survei GNSS."
+  },
+  {
+   "id": 6,
+   "nama": "Kampung Kebalen",
+   "deskripsi": "Kluster pemukiman kecil di sayap timur pulau",
+   "titik_permukiman": {
+    "lat": -5.93472,
+    "lon": 106.16111
+   },
+   "jarak_titik_ke_pantai_m": 323.8,
+   "kandidat_titik_aman": {
+    "lat": -5.931133,
+    "lon": 106.157865
+   },
+   "jarak_kandidat_ke_pantai_m": 846.6,
+   "jarak_permukiman_ke_kandidat_m": 535.2,
+   "luas_darat_ha": 97.04,
+   "jarak_pantai_median_m": 282.4,
+   "jarak_pantai_maks_m": 842.4,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.217,
+   "elevasi_m": null,
+   "catatan_elevasi": "Belum terisi: tidak ada data DEM pada masukan. Perlu DEMNAS/BIG atau survei GNSS."
+  },
+  {
+   "id": 7,
+   "nama": "Kampung Pasir Putih",
+   "deskripsi": "Pusat administrasi desa dan fasilitas umum",
+   "titik_permukiman": {
+    "lat": -5.9335,
+    "lon": 106.1528
+   },
+   "jarak_titik_ke_pantai_m": 993.2,
+   "kandidat_titik_aman": {
+    "lat": -5.932356,
+    "lon": 106.151318
+   },
+   "jarak_kandidat_ke_pantai_m": 1138.0,
+   "jarak_permukiman_ke_kandidat_m": 207.2,
+   "luas_darat_ha": 104.88,
+   "jarak_pantai_median_m": 582.5,
+   "jarak_pantai_maks_m": 1135.4,
+   "porsi_lahan_kurang_100m_dari_pantai": 0.074,
+   "elevasi_m": null,
+   "catatan_elevasi": "Belum terisi: tidak ada data DEM pada masukan. Perlu DEMNAS/BIG atau survei GNSS."
+  }
+ ]
+}

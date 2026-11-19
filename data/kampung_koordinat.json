@@ -1,0 +1,9 @@
+[
+  { "id": 1, "name": "Kampung Penengahan", "lat": -5.93167, "lng": 106.15306, "description": "Area historis bagian tengah pulau" },
+  { "id": 2, "name": "Kampung Peres", "lat": -5.94376, "lng": 106.15543, "description": "Pemukiman utama nelayan terpadat di selatan" },
+  { "id": 3, "name": "Kampung Baru", "lat": -5.92916, "lng": 106.15000, "description": "Zona perluasan perumahan barat laut" },
+  { "id": 4, "name": "Kampung Sukarela", "lat": -5.92638, "lng": 106.15694, "description": "Area pemukiman utara dekat batas vegetasi mangrove" },
+  { "id": 5, "name": "Kampung Sukadiri", "lat": -5.93889, "lng": 106.15972, "description": "Pemukiman pesisir tenggara pulau" },
+  { "id": 6, "name": "Kampung Kebalen", "lat": -5.93472, "lng": 106.16111, "description": "Kluster pemukiman kecil di sayap timur pulau" },
+  { "id": 7, "name": "Kampung Pasir Putih", "lat": -5.93350, "lng": 106.15280, "description": "Pusat administrasi desa dan fasilitas umum" }
+]

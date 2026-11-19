@@ -1,0 +1,87 @@
+{
+  "sumber": "Sensus Registrasi Penduduk resmi Pemerintah Kabupaten Serang",
+  "catatan": "Data kepala keluarga (KK) dan jiwa per kampung dari Sensus Registrasi Penduduk resmi Pemerintah Kabupaten Serang, diberikan oleh peneliti. Tanggal pencacahan belum dicantumkan.",
+  "desa": {
+    "kk": 1113,
+    "jiwa": 3025,
+    "sumber": "Rekap DTSEN Desa Pulo Panjang",
+    "jiwa_sumber": "Data penduduk Desa Pulo Panjang",
+    "catatan": "Jumlah keluarga dari Rekap DTSEN (Data Tunggal Sosial dan Ekonomi Nasional). Jumlah jiwa memakai total penduduk Desa Pulo Panjang, 3.025 jiwa, sama dengan papan data penduduk menurut usia."
+  },
+  "kelompok_usia": {
+    "sumber": "Papan data penduduk menurut usia dan jenis kelamin, Desa Pulo Panjang",
+    "catatan": "Jumlah pada papan 3.025 jiwa, dipakai sebagai total penduduk desa.",
+    "kelompok": [
+      {
+        "usia": "0–5 tahun",
+        "laki": 175,
+        "perempuan": 180
+      },
+      {
+        "usia": "6–12 tahun",
+        "laki": 197,
+        "perempuan": 206
+      },
+      {
+        "usia": "13–21 tahun",
+        "laki": 276,
+        "perempuan": 241
+      },
+      {
+        "usia": "22–45 tahun",
+        "laki": 578,
+        "perempuan": 545
+      },
+      {
+        "usia": "46 tahun ke atas",
+        "laki": 305,
+        "perempuan": 322
+      }
+    ]
+  },
+  "kampung": [
+    {
+      "kampung": "Kampung Peres",
+      "kk": 380,
+      "jiwa": 1037,
+      "kepadatan": "Sangat Padat"
+    },
+    {
+      "kampung": "Kampung Pasir Putih",
+      "kk": 250,
+      "jiwa": 692,
+      "kepadatan": "Padat"
+    },
+    {
+      "kampung": "Kampung Baru",
+      "kk": 160,
+      "jiwa": 432,
+      "kepadatan": "Sedang"
+    },
+    {
+      "kampung": "Kampung Sukadiri",
+      "kk": 140,
+      "jiwa": 389,
+      "kepadatan": "Sedang"
+    },
+    {
+      "kampung": "Kampung Sukarela",
+      "kk": 90,
+      "jiwa": 259,
+      "kepadatan": "Jarang"
+    },
+    {
+      "kampung": "Kampung Kebalen",
+      "kk": 50,
+      "jiwa": 130,
+      "kepadatan": "Sangat Jarang"
+    },
+    {
+      "kampung": "Kampung Penengahan",
+      "kk": 30,
+      "jiwa": 86,
+      "kepadatan": "Sangat Jarang"
+    }
+  ],
+  "catatan_jiwa": "Jumlah jiwa tiap kampung disesuaikan secara proporsional agar total 3.025 jiwa sama dengan total desa. Angka per kampung ini perkiraan, bukan hasil pencacahan langsung."
+}
